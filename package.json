@@ -1,0 +1,28 @@
+{
+  "name": "tafee-web-component",
+  "description": "A web component to use tafee.de forms inside any website",
+  "private": true,
+  "author": "Tobias Lobitz <hello@lowbits.de> (lowbits.com)",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
